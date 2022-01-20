@@ -14,3 +14,9 @@ on this repository.
 
 In addition, to cover for newer data specifically for 2022, we scraped information directly from the FOI website itself and **merged** them with the contents of
 the CSV file. Over 96,000 records had been generated and cleaned. 
+
+# Contact
+
+Prinz Magtulis, [ppm2130@columbia.edu](mailto:ppm2130@columbia.edu)
+
+**Comments and suggestions are always welcome! All rights reserved.**
