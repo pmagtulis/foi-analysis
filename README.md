@@ -1,6 +1,6 @@
 # foi-analysis
 
-This follows the **foi-ph-scraper** notebook and collates over 95,000 FOI requests into one file for analysis.
+This follows the **foi-ph-scraper** notebook and collates over 96,000 FOI requests into one file for analysis.
 
 # What is this?
 
