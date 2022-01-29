@@ -2,6 +2,12 @@
 
 This follows the **foi-ph-scraper** notebook and collates over 96,000 FOI requests into one file for analysis.
 
+# Recent updates
+
+|date|update|
+|---|---|
+|*Jan 28*|updated with newly scraped information from autoscraper| 
+
 # What is this?
 
 This is a code meant to run analysis on requests filed under the Philippines' **Freedom of Information** under Executive Order No. 2, Series of 2016 issued by
