@@ -6,7 +6,7 @@ This follows the **foi-ph-scraper** notebook and collates over 96,000 FOI reques
 
 |date|update|
 |---|---|
-|*Jan 28*|updated with newly scraped information from autoscraper| 
+|*Jan 28*|uploaded data with newly scraped information from autoscraper. Analysis still from 2016-January 20 though| 
 
 # What is this?
 
