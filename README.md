@@ -45,7 +45,7 @@ The following information were scraped from the website:
 
 # Requirements for use
 
-* Python: pandas, selenium
+* Python: pandas, regex
 
 The .yml file contains an automated push of the scraped file to another repository's directory. Either you create that as well or delete that part of the code
 to just push on the same repository.
