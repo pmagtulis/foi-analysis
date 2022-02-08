@@ -11,11 +11,11 @@ Philippines.
 CSVs in the **output** directory are automatically updated each Sunday when the autoscraper pushes newly scraped information from the website. Files are overwritten
 by new ones, but CSVs are generated with a unique file name each time the scraper runs to avoid losing older data.
 
-For instance, if the scraper runs on February 8, it will have that latest data plus other entries before that so long as it does not exceed **3,000 entries** 
-as the scraper intends to do. The scraper is designed that way since one, older data from 2016 are already saved in a separate CSV. Two, this is to avoid scraping 
-the entire site again which results in failure to scrape due to size.
+For instance, if the scraper runs on February 8, it will have that latest data plus other entries before that so long as the scraped info do not exceed **3,000 
+entries** as the scraper intends to do. The scraper is designed that way since one, older data from 2016 are already saved in a separate CSV. Two, this is to avoid 
+scraping the entire site again which results in failure to scrape due to size.
 
-Hence every week, new CSVs are added to the directory. The Jupyter Notebook merges all those together with older data from 2016 (contained in CSV with file name
+Hence every week, new CSVs are added to the directory. Use the Jupyter Notebook to merge all those with older data from 2016 (contained in CSV with file name
 **foi_final** for analysis.
 
 # The process
