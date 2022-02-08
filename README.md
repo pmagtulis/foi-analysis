@@ -15,7 +15,17 @@ For instance, if the scraper runs on February 8, it will have that latest data p
 as the scraper intends to do. The scraper is designed that way since one, older data from 2016 are already saved in a separate CSV. Two, this is to avoid scraping 
 the entire site again which results in failure to scrape due to size.
 
-Hence every week, new CSVs are added to the directory. The Jupyter Notebook merges all those together with older data from 2016 for analysis.
+Hence every week, new CSVs are added to the directory. The Jupyter Notebook merges all those together with older data from 2016 (contained in CSV with file name
+**foi_final** for analysis.
+
+# The process
+
+1. Download everything into one path in your computer. Open Jupyter Notebook and run **foi-analysis.ipynb**.
+
+2. The current notebook only read **foi_final.csv** through pandas in default. To add newly-scraped requests files, you need to **read the other CSVs in output
+directory**, generate data frames out of them and **concat** them with the first data frame. 
+
+3. Run analysis through pandas.
 
 # Definition of terms
 
