@@ -1,5 +1,5 @@
 # foi-analysis
-A data analysis of the FOI requests in the Philippines.
+Output repository of scraped information from foi-ph-scraper. A data analysis of FOI requests in the Philippines.
 
 # What is this?
 
