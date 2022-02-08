@@ -1,6 +1,22 @@
 # foi-analysis
 A data analysis of the FOI requests in the Philippines.
 
+# What is this?
+
+An analysis of FOI requests data scraped by [foi-ph-scraper](https://github.com/pmagtulis/foi-ph-scraper) from the [FOI website](https://foi.gov.ph) of the 
+Philippines.
+
+# How it works
+
+CSVs in the **output** directory are automatically updated each Sunday when the autoscraper pushes newly scraped information from the website. Files are overwritten
+by new ones, but CSVs are generated with a unique file name each time the scraper runs to avoid losing older data.
+
+For instance, if the scraper runs on February 8, it will have that latest data plus other entries before that so long as it does not exceed **3,000 entries** 
+as the scraper intends to do. The scraper is designed that way since one, older data from 2016 are already saved in a separate CSV. Two, this is to avoid scraping 
+the entire site again which results in failure to scrape due to size.
+
+Hence every week, new CSVs are added to the directory. The Jupyter Notebook merges all those together with older data from 2016 for analysis.
+
 # Definition of terms
 
 The following information were scraped from the website:
@@ -15,3 +31,9 @@ The following information were scraped from the website:
 |**purpose**|the purpose why the request is being made, typically indicating how the data will be used. This is required when filing an FOI request|     
 |**link**|hyperlink to each FOI request, containing details and direct messages between the filer and agency concerned. Only available for data from December 7, 2021|
 |**reasons_denial**|a brief reason cited for a denial of request. Only available for data from 2016-December 31, 2021|
+
+# Contact
+
+Prinz Magtulis, [ppm2130@columbia.edu](mailto:ppm2130@columbia.edu)
+
+**Comments and suggestions are always welcome! All rights reserved.**
