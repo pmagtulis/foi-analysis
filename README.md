@@ -43,7 +43,7 @@ The following information were scraped from the website:
 2021|
 |**reasons_denial**|a brief reason cited for a denial of request. Only available for data from 2016-December 31, 2021|
 
-# Requirements for use
+# Requirements
 
 * Python: pandas, regex
 
