@@ -1,6 +1,12 @@
 # foi-analysis
 Output repository of scraped information from foi-ph-scraper. A data analysis of FOI requests in the Philippines.
 
+# Recent updates
+
+|date|update|
+|---|---|
+|*Mar 15|Updated the notebook to merge recently scraped information from the FOI website. Data on **foi_final.csv** file now up to March 13, 2022.| 
+
 # What is this?
 
 An analysis of FOI requests data scraped by [foi-ph-scraper](https://github.com/pmagtulis/foi-ph-scraper) from the [FOI website](https://foi.gov.ph) of the 
