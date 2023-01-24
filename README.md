@@ -5,10 +5,9 @@ Output repository of scraped information from foi-ph-scraper. A data analysis of
 
 |date|update|
 |---|---|
+|*Jan. 24*|Updated data as of January 10, 2023| 
 |*Nov 11*|Updated data as of November 7, 2022| 
 |*Sept 12*|Updated data as of September 6, 2022| 
-|*June 27*|Updated data as of June 26, 2022| 
-|*Apr 13*|Updated the notebook to merge recently scraped information from the FOI website. Data on **foi_final.csv** file now up to April 10, 2022.| 
 
 # What is this?
 
